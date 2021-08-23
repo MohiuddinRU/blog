@@ -1,4 +1,9 @@
 import proImage from './proImage.jpg';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIcon from '@material-ui/icons/Phone';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Image ( props ) {
     <img 
@@ -35,7 +40,7 @@ function Link(props) {
     return(
         <div>
             <a target = "_blank" rel = "noreferrer" href = { props.link }>  </a> 
-            <Image />
+            <EmailIcon fontSize = { small } />
         </div>
     )
 }
@@ -47,7 +52,7 @@ function QuickDescription(){
 function Header(){
     return(
         <div>
-            <Image src = { proImage } />
+            <Image src = { proImage } title = "User photo" />
             <ResumeTitle name = "Md. Mohiuddin" 
                          title = "Full Stack Developer" 
             />
