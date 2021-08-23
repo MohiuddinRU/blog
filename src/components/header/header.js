@@ -17,14 +17,22 @@ function ResumeTitle( props ) {
     )
 }
 
+function Link(props) {
+    
+}
+
+function QuickDescription(){
+
+}
+
 function Header(){
     return(
         <div>
             <Image image = { proImage } />
             <ResumeTitle name = "Md. Mohiuddin" 
                          title = "Full Stack Developer" 
-             />
-            <SocialLinks />
+            />
+            <QuickDescription />
         </div>
     ) 
 }
