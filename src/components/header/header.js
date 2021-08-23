@@ -1,3 +1,4 @@
+import './Header.css';
 import proImage from './proImage.jpg';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -49,11 +50,17 @@ function QuickDescription(){
     <Link />
 }
 
-function Header(){
+export default function Header(){
     return(
-        <div>
-            <Image src = { proImage } title = "User photo" />
-            <ResumeTitle name = "Md. Mohiuddin" 
+        <div className = "Header">
+
+            <Image className = "UserImage" 
+                   src = { proImage } 
+                   title = "User photo" />
+
+            <ResumeTitle 
+                         className = "ResumeTitle"
+                         name = "Md. Mohiuddin" 
                          title = "Full Stack Developer" 
             />
 
