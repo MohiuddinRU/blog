@@ -16,12 +16,13 @@
 
 .QuickDesciption{
     display: flex;
-    padding: 2em;
+    flex-direction: column;
 }
 
 .Link{
     display: flex;
-    orientation: vertical;
+    flex-direction: row;
+    padding: 1em;
 }
 .Link > a{
     padding-right: 1em;
