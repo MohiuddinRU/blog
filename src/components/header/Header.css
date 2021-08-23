@@ -28,3 +28,9 @@
     padding-right: 1em;
 }
 
+.Location {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+   
+}

@@ -28,7 +28,7 @@ function ResumeTitle( props ) {
 
 function Location(props){
     return(
-        <div>
+        <div className = "Location">
             <div> { props.location } </div>
             <LocationOnIcon />
         </div>
