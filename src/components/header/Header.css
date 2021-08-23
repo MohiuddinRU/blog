@@ -1,0 +1,29 @@
+.Header{
+    display: flex;
+    padding: 1.5em;
+}
+
+.UserImgae{
+    height: 50%;
+    width: 50%;
+}
+
+.Title{
+    padding: 2em;
+    height: auto;
+    width: auto;
+}
+
+.QuickDesciption{
+    display: flex;
+    padding: 2em;
+}
+
+.Link{
+    display: flex;
+    orientation: vertical;
+}
+.Link > a{
+    padding-right: 1em;
+}
+
