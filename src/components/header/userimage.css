@@ -1,0 +1,6 @@
+.Image{
+    display: flex;
+    height: 200px;
+    width: 180px;
+    justify-content: flex-start;
+}

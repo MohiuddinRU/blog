@@ -1,30 +1,12 @@
 import React from 'react';
+import './quickdescription.css';
 
-import './Header.css';
-import proImage from './proImage.jpg';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-function UserImage ( props ) {
-    return(
-        <img className="UserImage"
-            src = { props.src} 
-            alt = { props.title} 
-        />
-    )
-}
-
-function ResumeTitle( props ) {
-    return(
-        <div className="Title"> 
-            <h1> { props.name} </h1>
-            <h2> { props.title} </h2>
-        </div>
-    )
-}
 
 function Location(props){
     return(
@@ -44,7 +26,8 @@ function Link( props ) {
     )
 }
 
-function QuickDesciption(){
+
+export default function QuickDescription(){
     return(
         <div className = "QuickDesciption">
             <Link href = "mailto:mohiuddin.ice.ru@gmail.com" 
@@ -71,22 +54,4 @@ function QuickDesciption(){
 
         </div>
     )
-}
-
-export default function Header(){
-    return(
-        <div className = "Header">
-
-            <UserImage 
-                   src = { proImage } 
-                   title = "User photo" />
-
-            <ResumeTitle 
-                         className = "ResumeTitle"
-                         name = "Md. Mohiuddin" 
-                         title = "Full Stack Developer" 
-            />
-            <QuickDesciption />
-        </div>
-    ) 
 }

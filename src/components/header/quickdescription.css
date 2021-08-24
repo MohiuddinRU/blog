@@ -1,0 +1,22 @@
+.QuickDesciption{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Link{
+    display: flex;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    justify-content: flex-end;
+}
+.Link > a{
+    padding-right: 1em;
+}
+
+.Location {
+    display: flex;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    justify-content: flex-end;
+}
